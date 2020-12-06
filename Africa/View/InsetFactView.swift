@@ -18,7 +18,7 @@ struct InsetFactView: View {
         } // ForEach
       } // TabView
       .tabViewStyle(PageTabViewStyle())
-      .frame(minHeight: 148, idealHeight: 168, maxHeight: 180)
+      .frame(minHeight: 158, idealHeight: 168, maxHeight: 180)
     } // GroupBox
   } // Body
 } // InsetFactView
