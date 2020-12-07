@@ -31,7 +31,7 @@ struct MapAnnotationView: View {
         .clipShape(Circle())
     } // ZStack
     .onAppear {
-      withAnimation(Animation.easeOut(duration: 2).repeatForever(autoreverses: false)) {
+      withAnimation(Animation.easeOut(duration: 1.4).repeatForever(autoreverses: false)) {
         animation = 1
       }
     } // OnAppear
